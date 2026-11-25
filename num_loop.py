@@ -5,8 +5,12 @@
 
 
 def main():
+
+    # Count from 1000 to 2000
     for counter in range(1000, 2001):
         print("{}".format(counter), end=" ")
+
+        # Create new line
         if (counter + 1) % 5 == 0:
             print("")
 
